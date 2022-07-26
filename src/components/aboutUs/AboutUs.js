@@ -15,7 +15,7 @@ const AboutUs = () => {
           <h4 className="about-us-text">About Us</h4>
           <h4 className="solution-text">A dedicated solution for startups and enterprises</h4>
           <p className="about-doc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-          <hr />
+          <div className="hr"></div>
           <div className="avatar">
             <img width="88px" height="88px" src={avatar} alt="" />
             <div className="quote-text">
