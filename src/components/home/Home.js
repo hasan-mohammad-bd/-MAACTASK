@@ -1,5 +1,6 @@
 import React from 'react';
 import BlackPage from '../blackPage/BlackPage';
+import Features from '../features/Features';
 import ShowCase from '../showCase/ShowCase';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <ShowCase></ShowCase>
             <BlackPage></BlackPage>
+            <Features></Features>
         </div>
     );
 };
