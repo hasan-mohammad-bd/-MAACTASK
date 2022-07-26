@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&family=Shadows+Into+Light&display=swap');
+
+@import '../../CSS-mixcing_and_variable/mixcing';
+
+*{
+    font-family: 'Manrope', sans-seri;
+}
+
+.navbar{
+    background-color: transparent;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    .container{
+        max-width: 1216px;
+        display: flex;
+        justify-content:space-between;
+        margin: 0 auto;
+        height: 100%;
+        align-items: center;
+
+        .login-btn{
+            @include button-blue(12px 24px, 500, 14px);
+        }
+
+        .registration-btn{
+            @include button-white(12px 24px, 500, 14px);
+            margin-left: 16px;
+        }
+    }
+}

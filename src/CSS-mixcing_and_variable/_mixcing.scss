@@ -1,0 +1,25 @@
+@import "./cssVariable";
+
+@mixin button-blue($padding, $fontW, $fontS) {
+    background-color: $primary-blue-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: $padding;
+    font-weight: $fontW;
+    font-size: $fontS;
+
+}
+
+@mixin button-white($padding, $fontW, $fontS) {
+    background-color: white;
+    color: $primary-blue-color;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: $padding;
+    font-weight: $fontW;
+    font-size: $fontS;
+    box-shadow: 1.5px 1.5px 0px 1.5px #0052CC;
+    border: 1px solid $primary-blue-color
+
+}

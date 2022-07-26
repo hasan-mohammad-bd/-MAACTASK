@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&family=Shadows+Into+Light&display=swap");
+* {
+  font-family: "Manrope", sans-seri;
+}
+
+.navbar {
+  background-color: transparent;
+  height: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar .container {
+  max-width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+}
+.navbar .container .login-btn {
+  background-color: #0052CC;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.navbar .container .registration-btn {
+  background-color: white;
+  color: #0052CC;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: 1.5px 1.5px 0px 1.5px #0052CC;
+  border: 1px solid #0052CC;
+  margin-left: 16px;
+}/*# sourceMappingURL=Navbar.css.map */
