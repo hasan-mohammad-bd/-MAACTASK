@@ -1,0 +1,42 @@
+.about-us {
+  background-image: url(../../Image/backgorund/blue-abstract-layered-stripes-background\ 1.png);
+  background-position: center;
+  background-size: cover;
+  height: 1196px;
+  width: 100%;
+}
+.about-us .container {
+  max-width: 1216px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 140px 0;
+}
+.about-us .container .text-area {
+  padding: 0 150px;
+}
+.about-us .container .about-us-upper {
+  display: flex;
+  text-align: left;
+}
+.about-us .container .about-us-upper .about-us-text {
+  font-size: 20px;
+  color: #0052CC;
+  font-weight: 500;
+}
+.about-us .container .about-us-upper .solution-text {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.about-us .container .about-us-upper .about-doc {
+  margin: 40px 0px;
+}
+.about-us .container .about-us-upper .avatar {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-us .container .about-us-upper .avatar .quote-text {
+  width: 280px;
+}/*# sourceMappingURL=AboutUs.css.map */

@@ -23,3 +23,15 @@
     border: 1px solid $primary-blue-color
 
 }
+
+@mixin small-blue-text {
+    font-size: 20px;
+    color: $primary-blue-color;
+    font-weight: 500;
+}
+
+@mixin  big-black-text {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 10px 0;
+}

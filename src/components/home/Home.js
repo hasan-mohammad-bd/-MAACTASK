@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUs from '../aboutUs/AboutUs';
 import BlackPage from '../blackPage/BlackPage';
 import Features from '../features/Features';
 import ShowCase from '../showCase/ShowCase';
@@ -9,6 +10,7 @@ const Home = () => {
             <ShowCase></ShowCase>
             <BlackPage></BlackPage>
             <Features></Features>
+            <AboutUs></AboutUs>
         </div>
     );
 };

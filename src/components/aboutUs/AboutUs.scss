@@ -1,0 +1,46 @@
+@import '../../CSS-mixcing_and_variable/mixcing';
+
+.about-us{
+    background-image: url(../../Image/backgorund/blue-abstract-layered-stripes-background\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 1196px;
+    width: 100%;
+
+    .container{
+        max-width: 1216px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 140px 0;
+
+        .text-area{
+            padding: 0 150px;
+        }
+
+        .about-us-upper{
+            display: flex;
+            text-align: left;
+            .about-us-text{
+                @include small-blue-text;
+            }
+            .solution-text{
+                @include big-black-text;
+            }
+
+            .about-doc{
+                margin: 40px 0px;
+            }
+
+            .avatar{
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .quote-text{
+                    width: 280px;
+                }
+            }
+        }
+    }
+}
