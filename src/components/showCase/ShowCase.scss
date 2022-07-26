@@ -1,0 +1,38 @@
+@import '../../CSS-mixcing_and_variable/mixcing';
+
+.show-case{
+    background-image: url(../../Image/backgorund/blue-abstract-layered-stripes-background\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 910px;
+    width: 100%;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .main-text{
+        font-size: 3.375rem;
+        font-weight: 800;
+        color: #0B141F;
+    }
+
+    .button-container{
+
+        margin: 50px 0 20px;
+
+        .demo-btn{
+            @include button-blue(24px 48px, 800, 20px);
+        }
+    
+        .download-btn{
+            @include button-white(24px 48px, 800, 20px);
+            margin-left: 16px;
+        }
+    }
+
+    .showCase-pic{
+        margin-bottom: -750px;
+    }
+}

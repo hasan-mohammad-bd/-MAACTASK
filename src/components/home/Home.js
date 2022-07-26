@@ -1,9 +1,12 @@
 import React from 'react';
+import BlackPage from '../blackPage/BlackPage';
+import ShowCase from '../showCase/ShowCase';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home page</h2>
+            <ShowCase></ShowCase>
+            <BlackPage></BlackPage>
         </div>
     );
 };

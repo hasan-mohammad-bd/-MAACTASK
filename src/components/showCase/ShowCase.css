@@ -1,0 +1,44 @@
+.show-case {
+  background-image: url(../../Image/backgorund/blue-abstract-layered-stripes-background\ 1.png);
+  background-position: center;
+  background-size: cover;
+  height: 910px;
+  width: 100%;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.show-case .main-text {
+  font-size: 3.375rem;
+  font-weight: 800;
+  color: #0B141F;
+}
+.show-case .button-container {
+  margin: 50px 0 20px;
+}
+.show-case .button-container .demo-btn {
+  background-color: #0052CC;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 24px 48px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.show-case .button-container .download-btn {
+  background-color: white;
+  color: #0052CC;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 24px 48px;
+  font-weight: 800;
+  font-size: 20px;
+  box-shadow: 1.5px 1.5px 0px 1.5px #0052CC;
+  border: 1px solid #0052CC;
+  margin-left: 16px;
+}
+.show-case .showCase-pic {
+  margin-bottom: -750px;
+}/*# sourceMappingURL=ShowCase.css.map */
