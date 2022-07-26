@@ -1,6 +1,7 @@
 .features-container {
   max-width: 1216px;
   margin: 0 auto;
+  margin-top: 80px;
 }
 .features-container .product-text {
   font-size: 20px;
@@ -11,4 +12,42 @@
   font-size: 48px;
   color: #0B141F;
   font-weight: 800;
+  margin: 30px 0;
+}
+.features-container .img-holder {
+  margin: 0 30px;
+  width: 564px;
+}
+.features-container .img-holder .phone-img {
+  width: 564px;
+}
+.features-container .features {
+  display: flex;
+  align-items: center;
+}
+.features-container .features .first-3-features {
+  text-align: end;
+}
+.features-container .features .first-3-features .feature-heading {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.features-container .features .first-3-features .feature-doc {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.features-container .features .last-3-features {
+  text-align: left;
+}
+.features-container .features .last-3-features .feature-heading {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.features-container .features .last-3-features .feature-doc {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 60px;
 }/*# sourceMappingURL=Features.css.map */
