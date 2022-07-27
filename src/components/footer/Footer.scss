@@ -1,0 +1,42 @@
+
+
+.footer{
+    background-color: #00193D;
+    height: 528px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .footer-doc{
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 22px 0 32px 0;
+    }
+
+    .footer-text-img{
+        padding-top: 68px;
+        
+    }
+
+    .soc{
+        margin: 0 20px;
+    }
+
+    .hr{
+        max-width: 1216px;
+        height: 1px;
+        background-color: #0D3166;
+    }
+
+    .copyright{
+        color: white;
+        margin: 40px 0 68px 0;
+
+        span{
+            color:#F60E0E;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.footer {
+  background-color: #00193D;
+  height: 528px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .footer-doc {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 22px 0 32px 0;
+}
+.footer .footer-text-img {
+  padding-top: 68px;
+}
+.footer .soc {
+  margin: 0 20px;
+}
+.footer .hr {
+  max-width: 1216px;
+  height: 1px;
+  background-color: #0D3166;
+}
+.footer .copyright {
+  color: white;
+  margin: 40px 0 68px 0;
+}
+.footer .copyright span {
+  color: #F60E0E;
+}/*# sourceMappingURL=Footer.css.map */
