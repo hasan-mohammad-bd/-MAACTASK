@@ -88,8 +88,22 @@
   border: none;
   margin: 60px 0;
 }
+.reg-cover .reg-card .submit-btn2 {
+  background-color: #0052CC;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 24px 270px;
+  font-weight: 800;
+  font-size: 20px;
+  border: none;
+  margin: 60px 0;
+}
 .reg-cover .reg-card .log-b {
   text-decoration: none;
   color: #0052CC;
   margin-left: 5px;
+}
+.reg-cover .reg-card2 {
+  height: 790px;
 }/*# sourceMappingURL=Registraion.css.map */

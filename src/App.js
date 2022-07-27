@@ -7,20 +7,22 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Login from './components/login/Login';
 import Registration from './components/registration/Registration';
+import RegistrationFull from './components/registration/RegistrationFull';
+import LoginFull from './components/login/LoginFull';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar> 
+
       <Routes>
       <Route path='/' element={<Home></Home>}></Route>
         <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/registration' element={<Registration></Registration>}></Route>
+        <Route path='/login' element={<LoginFull></LoginFull>}></Route>
+        <Route path='/registration' element={<RegistrationFull></RegistrationFull>}></Route>
       </Routes>
-      <Footer></Footer>
+
     </div>
   );
 }
