@@ -17,7 +17,7 @@
         justify-content: space-evenly;
 
         .text-area{
-            padding: 0 150px;
+            padding: 0 90px 0 150px;
         }
 
         .hr {
@@ -29,6 +29,7 @@
         .about-us-upper{
             display: flex;
             text-align: left;
+            justify-content: space-between;
             .about-us-text{
                 @include small-blue-text;
             }
@@ -55,6 +56,7 @@
         .all-achievements{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+            text-align: center;
 
             .achievement{
 

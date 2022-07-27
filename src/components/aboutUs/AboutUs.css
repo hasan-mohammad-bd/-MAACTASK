@@ -14,7 +14,7 @@
   justify-content: space-evenly;
 }
 .about-us .container .text-area {
-  padding: 0 150px;
+  padding: 0 90px 0 150px;
 }
 .about-us .container .hr {
   background-color: #F0F0F0;
@@ -24,6 +24,7 @@
 .about-us .container .about-us-upper {
   display: flex;
   text-align: left;
+  justify-content: space-between;
 }
 .about-us .container .about-us-upper .about-us-text {
   font-size: 20px;
@@ -50,6 +51,7 @@
 .about-us .container .all-achievements {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  text-align: center;
 }
 .about-us .container .all-achievements .achievement .number {
   font-size: 40px;

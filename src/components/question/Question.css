@@ -1,0 +1,34 @@
+.questions {
+  background-color: #0052CC;
+  height: 934px;
+  width: 100%;
+}
+.questions .background-pic {
+  background-image: url(../../Image/backgorund/ajscb\ 1.png);
+  height: 100%;
+  width: 100%;
+}
+.questions .background-pic .container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.questions .background-pic .container .text {
+  text-align: center;
+  padding: 140px 0 0 0;
+}
+.questions .background-pic .container .text .common-text {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.questions .background-pic .container .text .fr-text {
+  font-size: 48px;
+  color: white;
+  font-weight: 800;
+  margin: 20px 0 80px 0;
+}
+.questions .background-pic .container .question {
+  display: flex;
+}/*# sourceMappingURL=Question.css.map */

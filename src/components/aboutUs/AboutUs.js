@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div className="text-area">
             <h4 className="about-us-text">About Us</h4>
             <h4 className="solution-text">
-              A dedicated solution for startups and enterprises
+              A dedicated solution for <br /> startups and enterprises
             </h4>
             <p className="about-doc">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

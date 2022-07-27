@@ -1,0 +1,43 @@
+@import '../../CSS-mixcing_and_variable/cssVariable';
+.questions{
+    background-color: $primary-blue-color;
+    height: 934px;
+    width: 100%;
+
+    .background-pic{
+        background-image: url(../../Image/backgorund/ajscb\ 1.png);
+        height: 100%;
+        width: 100%;
+
+        .container{
+            max-width: 1216px;
+            margin: 0 auto;
+
+            .text{
+                text-align: center;
+                padding: 140px 0 0 0 ;
+
+
+                .common-text{
+                    font-size: 20px;
+                    color: white;
+                    font-weight: 500;
+                    margin: 0;
+                    padding: 0;
+
+                }
+
+                .fr-text{
+                    font-size: 48px;
+                    color: white;
+                    font-weight: 800;
+                    margin: 20px 0 80px 0;
+                }
+            }
+
+            .question{
+                display: flex;
+            }
+        }
+    }
+}
