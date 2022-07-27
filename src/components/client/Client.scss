@@ -1,0 +1,35 @@
+@import '../../CSS-mixcing_and_variable//cssVariable';
+
+
+ .client{
+    height: 440px;
+    width: 100%;
+    padding-top: 30px;
+    .container{
+        max-width: 1196px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .company-text {
+            color: $primary-blue-color;
+            font-weight: 600;
+            font-size: 32px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .client-container{
+
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+
+    }
+
+ }
