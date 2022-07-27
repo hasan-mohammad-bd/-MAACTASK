@@ -1,17 +1,20 @@
 @import '../../CSS-mixcing_and_variable/mixcing';
+@import '../../CSS-mixcing_and_variable/cssVariable';
 
 .about-us{
-    background-image: url(../../Image/backgorund/blue-abstract-layered-stripes-background\ 1.png);
+    background-image: url(../../Image/backgorund/BG.png);
     background-position: center;
     background-size: cover;
     height: 1196px;
     width: 100%;
 
     .container{
-        max-width: 1216px;
+        max-width: 1196px;
         height: 100%;
         margin: 0 auto;
-        padding: 140px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
 
         .text-area{
             padding: 0 150px;
@@ -48,5 +51,29 @@
                 }
             }
         }
+
+        .all-achievements{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            .achievement{
+
+
+                .number{
+                    font-size: 40px;
+                    color: $primary-blue-color;
+                    margin:16px;
+                    font-weight: 800;
+                }
+
+                .achieved-text{
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #4E4E4E;
+                    margin: 0;
+                }
+            }
+        }
+
     }
 }

@@ -1,15 +1,17 @@
 .about-us {
-  background-image: url(../../Image/backgorund/blue-abstract-layered-stripes-background\ 1.png);
+  background-image: url(../../Image/backgorund/BG.png);
   background-position: center;
   background-size: cover;
   height: 1196px;
   width: 100%;
 }
 .about-us .container {
-  max-width: 1216px;
+  max-width: 1196px;
   height: 100%;
   margin: 0 auto;
-  padding: 140px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .about-us .container .text-area {
   padding: 0 150px;
@@ -44,4 +46,20 @@
 }
 .about-us .container .about-us-upper .avatar .quote-text {
   width: 280px;
+}
+.about-us .container .all-achievements {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.about-us .container .all-achievements .achievement .number {
+  font-size: 40px;
+  color: #0052CC;
+  margin: 16px;
+  font-weight: 800;
+}
+.about-us .container .all-achievements .achievement .achieved-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #4E4E4E;
+  margin: 0;
 }/*# sourceMappingURL=AboutUs.css.map */
